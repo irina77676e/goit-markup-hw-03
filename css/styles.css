@@ -62,7 +62,7 @@ img {
   line-height: calc(31 / 26);
   letter-spacing: 0.03em;
 }
-.logo{
+.logo-header{
   margin-right: 93px;
 }
 .first-part {
@@ -111,7 +111,7 @@ align-items: center;
   align-items: center;
 }
 .header-nav-item, .link{
-  padding: 32px 0px;
+  padding: 24px 0px 25px 0px;
 }
 
 
@@ -200,6 +200,9 @@ align-items: center;
   display: flex;
   gap: 30px;
 }
+.what{
+padding: 94px 0px;
+}
 
 /* TEAM */
 .team {
@@ -224,7 +227,9 @@ align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-color);
-  padding: 30px 0px 10px;
+  padding-top: 30px;
+  margin-bottom: 10px;
+  
 }
 .workers-item {
   font-weight: 400;
@@ -233,7 +238,8 @@ align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--description-color);
-  padding: 10px 0 30px 0px;
+  padding-bottom: 30px;
+  
 }
 /* FOOTER */
 .footer-item {
@@ -252,6 +258,7 @@ align-items: center;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
   color: var(--link-color);
+  margin-bottom: 9px;
 }
 .footer-mail-link,
 .footer-tel-link {
@@ -261,25 +268,23 @@ align-items: center;
   letter-spacing: 0.03em;
   color: var(--description-color);
 }
+.footer-mail-link,
+.footer-tel-link:not(:last-child){
+  margin-bottom:9px;
+}
 .footer-address {
   font-style: normal;
-}
-.footer-item {
-  padding: 60px 0px 60px 0px;
-}
-
-.footer-address-item {
   margin-top: 20px;
 }
-
 .footer-list {
   gap: 9px;
-
+}
+.logo-footer{
+  text-decoration: none;
 }
 /* PORTFOLIO */
 .portfolio{
-  margin-top:94px ;
-  margin-bottom:94px ;
+  padding: 94px 0px 94px 0px;
 }
 .portfolio-list{
 display: flex;
@@ -299,22 +304,27 @@ margin-bottom: 50px;
   border-radius: 4px;
   min-width: 73px;
   min-height: 38px;
+  border: none;
   
+}
+.text{
+  padding: 20px 24px;
+  border: 1px solid #EEEEEE;;
+  border-top: none;
 }
 .pictures-item{
 display: flex;
 flex-wrap: wrap;
-gap: 30;
+gap: 30px;
 column-gap: 30px;
-
 }
-
 .portfolio-item {
   font-weight: 700;
   font-size: 18px;
   line-height: 36px;
   letter-spacing: 0.06em;
   color: var(--main-color);
+  margin-bottom: 4px;
 }
 .portfolio-item-first {
   font-weight: 400;
